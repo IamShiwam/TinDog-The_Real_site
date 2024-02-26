@@ -1,0 +1,268 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: serif;
+}
+
+p{
+    font-size: 1.1rem;
+    color: #b0b0b3;
+    margin: 0 20%;
+}
+
+
+h1{
+  font-weight: bolder;
+  color: #fff;
+  font-size: 4rem;
+  text-align: initial;
+  line-height: 1.5;
+  padding-top: 15%;
+  margin-left: 15%;
+}
+
+.Source_link a{
+    text-decoration: none;
+    color: inherit;
+}
+.Source_link a:hover{
+    text_decoration: none;
+    color: inherit;
+}
+
+/*  */
+/* section  */
+/*  */
+
+.colored-section{
+  background-color: #ff4c68;
+}
+.white-section{
+  background-color: #FFF;
+  margin-bottom: 2%;
+}
+
+/*  */
+/* title-image */
+/*  */
+
+.title-image{
+  width: 45%;
+  margin: 5% 0 0 30%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+
+/*  */
+/* navigation bars */
+/*  */
+
+  .navbar-collapse{
+    padding: 0 10% 0 10%;
+  }
+  .navbar-brand{
+    font-family: 'Lobster Two', cursive;
+    color: #000000b0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 5.3%;
+  }
+  .navbar-brand:hover{
+    color: white;
+  }
+
+  .nav-link{
+    font-size: 1rem;
+    margin-left: 12%;
+    color: #090303b8;
+  }
+  .nav-link:hover{
+    color: white;
+
+  }
+
+/*  */
+/* download button */
+/*  */
+.download-button-1 {
+  margin: 5% 0 5% 15%;
+}
+
+.download-button-1 a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent */
+}
+
+.download-button-1 a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: inherit; /* Inherit text color from parent on hover */
+}
+
+/*  */
+/* feature */
+/*  */
+
+  #features{
+    text-align: center;
+    padding: 10% 0 7% 0;
+    position: relative;
+  }
+
+  .icon{
+    color: #d52e2ec2;
+    margin-bottom: 2%;
+  }
+  .icon:hover{
+    color: #ff4c68;
+  }
+
+  h3{
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+
+
+/*  */
+/* testimonials Section */
+/*  */
+
+  #testimonials{
+    text-align: center;
+  }
+
+  .carousel-item{
+    padding: 3% 20% 3% 20%;
+  }
+
+  .testimonial-text{
+    margin: 0 5%;
+  }
+
+  .testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 2% 2% 2% 0;
+  }
+
+  h2{
+    font-family: serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .press-logo{
+    width: 12%;
+    margin: 0 4% 4% 8%;
+  }
+
+/*  */
+/* pricing section */
+/*  */
+
+#pricing{
+  text-align: center;
+}
+.pricing-intro{
+  font-family: serif;
+  color: black;
+  margin: 2% 1%;
+}
+.pricing{
+  font-style: normal;
+  color: black;
+}
+
+/*  */
+/* footer section */
+/*  */
+
+.footer-heading{
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  padding: 10% 25% 0 25%;
+}
+
+.footer-buttons1{
+  margin: 5% 0 10% 35%;
+
+}
+.footer-buttons1 a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-buttons1 a:hover{
+    text_decoration: none;
+    color: inherit;
+}
+
+.footer-buttons2{
+  margin: 5% 0 10% 5%;
+}
+.footer-buttons2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.footer-buttons2 a:hover{
+    text_decoration: none;
+    color: inherit;
+}
+
+
+/* download button */
+/*  */
+
+.download-button-1 {
+  margin: 5% 0 5% 15%;
+}
+
+.download-button-1 a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent */
+}
+
+.download-button-1 a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: inherit; /* Inherit text color from parent on hover */
+}
+
+/*  */
+/* Footer Section */
+
+#footer{
+  text-align: center;
+  margin: 2%;
+}
+
+#copyright{
+ font-size: 75%;
+}
+
+.footer-icon{
+  color: black;
+  padding: 0 1% 2.5% 2%;
+}
+.footer-icon:hover{
+  color: #ff4c68;
+}
+
+/*  */
+/* styling for mobile browsing */
+/*  */
+
+@media (max-width:990px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  .footer-buttons{
+    margin-left: 25%;
+  }
+}
